@@ -7,6 +7,7 @@ import UseEffect from './components/UseEffect'
 import Accordion from './components/Accordion'
 import FormHandling from './components/FormHandling'
 import LiftingStateupChild from './components/LiftingStateupChild'
+import CustomHookEx from './components/CustomHookEx'
 
 const App = () => {
   function parent(greet) {
@@ -27,6 +28,7 @@ const App = () => {
       <UseEffect />
       <Accordion />
       <FormHandling />
+      <CustomHookEx />
     </>
 
   )
